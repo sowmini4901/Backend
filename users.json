@@ -1,0 +1,1857 @@
+[{
+  "_id": {
+    "$oid": "6038fa048466d36bbc9a9b51"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": true,
+  "teamID": 101,
+  "password": "$2a$10$ohDuxMsRuOYR5c/.m1r7fuk89ubNSq/.I8XD44cgX44pxF0cczqFq",
+  "createdAt": {
+    "$date": "2021-02-26T13:39:16.755Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-04T20:20:37.143Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038faca8466d36bbc9a9b52"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 102,
+  "password": "$2a$10$iIjJ/zdWe81CADEAHdu37OGKdQOMy9mC59UQTlfYZY5O332.4/Y..",
+  "createdAt": {
+    "$date": "2021-02-26T13:42:34.511Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:42:34.511Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fb058466d36bbc9a9b53"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 103,
+  "password": "$2a$10$RBWTPpvI.jqtK.1wJRViO.jJpnJhJk9.MyvFp8PBWuAqbcZOSRSAy",
+  "createdAt": {
+    "$date": "2021-02-26T13:43:33.921Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:43:33.921Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fb1f8466d36bbc9a9b54"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 104,
+  "password": "$2a$10$SyI4sxH1jXSqdCuj90O3M.4xynkBqrKMyPQjCwcDzLCVnqEntYH.S",
+  "createdAt": {
+    "$date": "2021-02-26T13:43:59.833Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:43:59.833Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fb3f8466d36bbc9a9b55"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 105,
+  "password": "$2a$10$O21EWhdqUP8Ch0qz0f2Sg.fXD7hq8HgBxgIKXZGNuyOE7YTSIAjpS",
+  "createdAt": {
+    "$date": "2021-02-26T13:44:31.334Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:44:31.334Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fb588466d36bbc9a9b56"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 106,
+  "password": "$2a$10$u7KuovBzah/yh2TFWpRFO.Fw1MS5hbJI8nAPg8kBs3eaPqdQRiyMK",
+  "createdAt": {
+    "$date": "2021-02-26T13:44:56.459Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:44:56.459Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fb738466d36bbc9a9b57"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 107,
+  "password": "$2a$10$cyvai9q3KGCLeiLtLcxA5usnT9kE7sJw3aAPXX75olA9bWm47dmVK",
+  "createdAt": {
+    "$date": "2021-02-26T13:45:23.553Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:45:23.553Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fb998466d36bbc9a9b58"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 108,
+  "password": "$2a$10$U8kr4nhlWAKICWuxDXKQP.9/B4/jD7PtNNZfjUJgGPzmJfWzAUpGm",
+  "createdAt": {
+    "$date": "2021-02-26T13:46:01.498Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:46:01.498Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fc338466d36bbc9a9b59"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 109,
+  "password": "$2a$10$8rLT82kqqSqcyM01PyBJ5u4B72Y0WIEWrQCGmkdnDJwOPkHeIqWty",
+  "createdAt": {
+    "$date": "2021-02-26T13:48:35.396Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:48:35.396Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fc4e8466d36bbc9a9b5a"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 110,
+  "password": "$2a$10$cTxYGrAYvmKJIJjDVNWt.OqKDbyIizMu4HlEbe9GvUrMgyF5iOGhi",
+  "createdAt": {
+    "$date": "2021-02-26T13:49:02.753Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:49:02.753Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fc6b8466d36bbc9a9b5b"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 111,
+  "password": "$2a$10$2.OR2vvxoD2IHedUjvR8Iem6eSJK.Zmd3cfeuV3.3DVS8Sikoivc6",
+  "createdAt": {
+    "$date": "2021-02-26T13:49:31.414Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:49:31.414Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fc7f8466d36bbc9a9b5c"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 112,
+  "password": "$2a$10$J56URRX4F6zS9R8fZNrq5eX69fvZZhNxfkeVspu7/X0W9CDvEONXu",
+  "createdAt": {
+    "$date": "2021-02-26T13:49:51.150Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:49:51.150Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fc928466d36bbc9a9b5d"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 113,
+  "password": "$2a$10$T.QA0E8zkLt.aik3/iuk8O3wh22IP9610Lwt4knSb1dYf3M8ewWo6",
+  "createdAt": {
+    "$date": "2021-02-26T13:50:10.111Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:50:10.111Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fcb18466d36bbc9a9b5e"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 114,
+  "password": "$2a$10$BL2McvoojnBXtunj5cMsQeoo1EmmZ2D0MqRjzYRkwlmpBZIpNFS2.",
+  "createdAt": {
+    "$date": "2021-02-26T13:50:41.517Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:50:41.517Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fcce8466d36bbc9a9b5f"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 115,
+  "password": "$2a$10$3XZBaYVwtWXcOYynuKkLJOgdBVC.0NgyQ7UFwfD6it6NcjfZOUG72",
+  "createdAt": {
+    "$date": "2021-02-26T13:51:10.991Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:51:10.991Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fce58466d36bbc9a9b60"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 116,
+  "password": "$2a$10$pfoS2K.f10GPMsgD6bio3emUfQw8vHpS2W6D6qir4RfayCGW3k2L6",
+  "createdAt": {
+    "$date": "2021-02-26T13:51:33.216Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:51:33.216Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fcfa8466d36bbc9a9b61"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 117,
+  "password": "$2a$10$wTPPUIrJXlJTNa7Is42oQ.VnQ8pcNdHFqWAszf9x/Rl5AKhVTAHYG",
+  "createdAt": {
+    "$date": "2021-02-26T13:51:54.365Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:51:54.365Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fd0f8466d36bbc9a9b62"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 118,
+  "password": "$2a$10$fWDSHsJqrmjlGS55FZtB9eXNCzvv0H1RV5U2Udqwf4goem/3fbPhO",
+  "createdAt": {
+    "$date": "2021-02-26T13:52:15.288Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:52:15.288Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fd258466d36bbc9a9b63"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 119,
+  "password": "$2a$10$2lwP3m4al24zLmrFaUpDKutFqSPeYUbptcu6XdADJBiSm89ojlTwq",
+  "createdAt": {
+    "$date": "2021-02-26T13:52:37.798Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:52:37.798Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fd3c8466d36bbc9a9b64"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 120,
+  "password": "$2a$10$CQ/pZxGYHHWuovrGXEKuTuOB5LUOxryzWGoP8h7UFaRSJCMncnujK",
+  "createdAt": {
+    "$date": "2021-02-26T13:53:00.722Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:53:00.722Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fd5f8466d36bbc9a9b65"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 121,
+  "password": "$2a$10$nT6/Ma8SRtT83T4ig9KBVemCkx9jMFRPwB6do8El4UVlKUPrS4.GS",
+  "createdAt": {
+    "$date": "2021-02-26T13:53:35.554Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:53:35.554Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fd7e8466d36bbc9a9b66"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 122,
+  "password": "$2a$10$.YDvfYGLp4T47XKoeTvnfesIeJ4N5Pgp90AhWpsXZYHQwLTTVZL.S",
+  "createdAt": {
+    "$date": "2021-02-26T13:54:06.859Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:54:06.859Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fda58466d36bbc9a9b67"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 123,
+  "password": "$2a$10$6hBm9lc8Nv8g8riJs.crAeUMXKedPRMZfbCQlJEc4cSR9C2OoHm5K",
+  "createdAt": {
+    "$date": "2021-02-26T13:54:45.570Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:54:45.570Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fe460d3d182858b4379e"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 124,
+  "password": "$2a$10$Tyed3da2Q1bRl.GXmrU3wuOFhUDaSehklWhy44rciKF9mkAP8BdS6",
+  "createdAt": {
+    "$date": "2021-02-26T13:57:26.717Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:57:26.717Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fe5e0d3d182858b4379f"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 125,
+  "password": "$2a$10$k7hNWIndVcPpH5.h8CBhV.SNviJRZ3TkBh6dkMr3OKyEwNfd5aFtm",
+  "createdAt": {
+    "$date": "2021-02-26T13:57:50.638Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:57:50.638Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fe7f0d3d182858b437a0"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 126,
+  "password": "$2a$10$6vcUzkznjnx8zliXi6M4iu1h/NwWWw4rO8lGoDW6lAzwM7rxeK7Jq",
+  "createdAt": {
+    "$date": "2021-02-26T13:58:23.372Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:58:23.372Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fe960d3d182858b437a1"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 127,
+  "password": "$2a$10$gaBoG9SyB4eKOdR1Kb3OpOjAlJ2WazHdxPtiRehyvo/dcvQdw1Qna",
+  "createdAt": {
+    "$date": "2021-02-26T13:58:46.167Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:58:46.167Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038feaa0d3d182858b437a2"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 128,
+  "password": "$2a$10$S7Hlfm6ZTJaRZxXFYqAygeDqvStkcByHjF6Uo.ahtfosE5NQEPz9u",
+  "createdAt": {
+    "$date": "2021-02-26T13:59:06.191Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T13:59:06.191Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038ff3e0d3d182858b437a4"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 129,
+  "password": "$2a$10$8kkKtwMgDJaXtMzS6xlAgOLaAwdk0AS0v1imrgRn53zvD0L.2UK0G",
+  "createdAt": {
+    "$date": "2021-02-26T14:01:34.510Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:01:34.510Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038ff750d3d182858b437a5"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 130,
+  "password": "$2a$10$0pTayajdpGaU.CssbrBtmuTt22xrIawfMx6LlbwEMiSi28GEdzs5O",
+  "createdAt": {
+    "$date": "2021-02-26T14:02:29.304Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:02:29.304Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038ff8a0d3d182858b437a6"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 131,
+  "password": "$2a$10$mi1VWEOkNRQaM1ovvo3L7.3M8s/NYNEBcieUY8/2qQ/OinBW6IRPm",
+  "createdAt": {
+    "$date": "2021-02-26T14:02:50.869Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:02:50.869Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038ffa10d3d182858b437a7"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 132,
+  "password": "$2a$10$3Zb/HxLcZtq4SghZRJBRvu7pOhwvZyER7vvsSXG1c54WWHRqRCBVi",
+  "createdAt": {
+    "$date": "2021-02-26T14:03:13.155Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:03:13.155Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038ffb50d3d182858b437a8"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 133,
+  "password": "$2a$10$z49MZFujGejSXjzR.Z06yeaYAk47.K7dVqPdtIAaZzHWMtH9zRI1i",
+  "createdAt": {
+    "$date": "2021-02-26T14:03:33.031Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:03:33.031Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038ffc80d3d182858b437a9"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 134,
+  "password": "$2a$10$amu4deQs5RgA978gCWTTjuSJ/crmI/x/mIvshRRo0fYnxvtNYmJhG",
+  "createdAt": {
+    "$date": "2021-02-26T14:03:52.537Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:03:52.537Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038ffdd0d3d182858b437aa"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 135,
+  "password": "$2a$10$D8LPTDuzme7e.2sf6WicZekN02jk3wRRvcwWRUrmnWoUaR0IYRt1W",
+  "createdAt": {
+    "$date": "2021-02-26T14:04:13.268Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:04:13.268Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6038fff10d3d182858b437ab"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 136,
+  "password": "$2a$10$VpyPJMu9XarQKjVB7QJMo.RAv7GcaEc6x0Y2PkMcC2fx79DyYkSe6",
+  "createdAt": {
+    "$date": "2021-02-26T14:04:33.201Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:04:33.201Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603900100d3d182858b437ac"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 137,
+  "password": "$2a$10$LCVgNCE3G8PKB.Eozmysdu0qqw39BQnrJgSrofUu1lPHUTLdFjFQG",
+  "createdAt": {
+    "$date": "2021-02-26T14:05:04.168Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:05:04.168Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603900250d3d182858b437ad"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 138,
+  "password": "$2a$10$mqAoUlkJy7kNty8qZxq0UevvqfA50Ny15w6iLsa0Rkmy3Ifgq2NbK",
+  "createdAt": {
+    "$date": "2021-02-26T14:05:25.605Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:05:25.605Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603900370d3d182858b437ae"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 139,
+  "password": "$2a$10$vu.W5b2o9q.Miden3WY0nOOPl4p9xqSjmNq3U0UBo7bJeZrU/Z8yu",
+  "createdAt": {
+    "$date": "2021-02-26T14:05:43.445Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:05:43.445Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039004b0d3d182858b437af"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 140,
+  "password": "$2a$10$npSpdOzhyO2SypbUHowsueJgvLn2JdubhhjpGFxPgb2I0a8LdvtWi",
+  "createdAt": {
+    "$date": "2021-02-26T14:06:03.336Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:06:03.336Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039005e0d3d182858b437b0"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 141,
+  "password": "$2a$10$Z5IX1iE4a43BKF7.dPjArufWLtVUOfAbwSHjHBglceBV0avygNsZS",
+  "createdAt": {
+    "$date": "2021-02-26T14:06:22.682Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:06:22.682Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603900720d3d182858b437b1"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 142,
+  "password": "$2a$10$jAeJOq6Wrlf56/354p2eAeTr11s8rKQXjW.G1cCbGtIimOlufidIG",
+  "createdAt": {
+    "$date": "2021-02-26T14:06:42.174Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:06:42.174Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039008b0d3d182858b437b2"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 143,
+  "password": "$2a$10$RkyEgi7cwk90fvi.XKzJ6.X93fWg.3vCJi4Hza1jFM9RraL9XmbS.",
+  "createdAt": {
+    "$date": "2021-02-26T14:07:07.463Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:07:07.463Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603900d50d3d182858b437b4"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 144,
+  "password": "$2a$10$KEYC5rk0HZ/4F8YcbSfGb.bTgMBCOLHdArtcQowIXHuq.50Fo9/rW",
+  "createdAt": {
+    "$date": "2021-02-26T14:08:21.974Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:08:21.974Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603900ed0d3d182858b437b5"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 145,
+  "password": "$2a$10$mIyZKojnXPglWroJ3n/0YutAhjR6uCDkAY13LJ1Vs3jpu5eDqdy.K",
+  "createdAt": {
+    "$date": "2021-02-26T14:08:45.284Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:08:45.284Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603901000d3d182858b437b6"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 146,
+  "password": "$2a$10$ACUknrV3DA2BPs1HX0RFX.XrtjbPMS9ahgY2mcxPsJXeKr3wKNHTu",
+  "createdAt": {
+    "$date": "2021-02-26T14:09:04.404Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:09:04.404Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603901120d3d182858b437b7"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 147,
+  "password": "$2a$10$o..bsnkPwEuKf9rbL0MSOeUM95aP2xn7ZIHzg2YYbu6ekznXIzKkW",
+  "createdAt": {
+    "$date": "2021-02-26T14:09:22.392Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:09:22.392Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603901250d3d182858b437b8"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 148,
+  "password": "$2a$10$bZaGNnUrPu.LktBTIIBopeXLGrwduO5b3ZkLmCvI7ZZLMYoSWNUpe",
+  "createdAt": {
+    "$date": "2021-02-26T14:09:41.815Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:09:41.815Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039013a0d3d182858b437b9"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 149,
+  "password": "$2a$10$ECrK9i.nGWIPPhH5qq16neCt3ZAmbB/MWSx5shP.PzGe.E9pUth3G",
+  "createdAt": {
+    "$date": "2021-02-26T14:10:02.415Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:10:02.415Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603901500d3d182858b437ba"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 150,
+  "password": "$2a$10$b6WKxbCtMaaLmI7PUHilFOi.KXlSv3antI5nM1RZLTCVF0WEQQazm",
+  "createdAt": {
+    "$date": "2021-02-26T14:10:24.046Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-26T14:10:24.046Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a3c0cf95c33008276f3a"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 151,
+  "password": "$2a$10$P/ygR4sJ/WD5iMNZsZCDiOv7wJC1eDI1aMJaYpNQig27BIpxIwqje",
+  "createdAt": {
+    "$date": "2021-02-27T01:43:28.920Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:43:28.920Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a3e8cf95c33008276f3b"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 152,
+  "password": "$2a$10$wdGwH08H/Jau6YybJe3O9ubamP0KI.jhnjZIw.VsOh1oBuxUE/NMa",
+  "createdAt": {
+    "$date": "2021-02-27T01:44:08.476Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:44:08.476Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a3ffcf95c33008276f3c"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 153,
+  "password": "$2a$10$cr79Psod05ajpcG.KaXp0ekcbANkjKVX.N69QVnleAcU/JS42ML2K",
+  "createdAt": {
+    "$date": "2021-02-27T01:44:31.499Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:44:31.499Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a415cf95c33008276f3d"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 154,
+  "password": "$2a$10$CFiTGdWZ6Zl7QVejFqithesOEP7q313gbyFeLHmoroUf0zCdrOpEu",
+  "createdAt": {
+    "$date": "2021-02-27T01:44:53.452Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:44:53.452Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a42bcf95c33008276f3e"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 155,
+  "password": "$2a$10$ck5mrxc7KVsIF.BC9fwrMuVXlFkb2mJBS/8jkIV/lnq2qlMXTY7wi",
+  "createdAt": {
+    "$date": "2021-02-27T01:45:15.380Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:45:15.380Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a442cf95c33008276f3f"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 156,
+  "password": "$2a$10$eryWeoXN/qF1Dj0aQtbH1uzlNHdbkd3NHpP6A39DRofAp1ETpo8sq",
+  "createdAt": {
+    "$date": "2021-02-27T01:45:38.588Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:45:38.588Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a456cf95c33008276f40"
+  },
+  "attempted": 2,
+  "Score": 2,
+  "loggedIn": true,
+  "teamID": 157,
+  "password": "$2a$10$3dVI8oVoNin6NGVIPugsO.8a0ix7Re2HG0AU0AsrxyRnyCd/LI6km",
+  "createdAt": {
+    "$date": "2021-02-27T01:45:58.714Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T06:12:09.013Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a46acf95c33008276f41"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 158,
+  "password": "$2a$10$hpOD713CFmIkLyd.vC1W/egKe0yMwHWnWTqY3H2RgxY/9KfP.cgKK",
+  "createdAt": {
+    "$date": "2021-02-27T01:46:18.827Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:46:18.827Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a47ecf95c33008276f42"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 159,
+  "password": "$2a$10$7.8jhTSygWbK4RbSmd5TU.JcreEFpPGQz8oaSNrmbUFQoPlbbk8t2",
+  "createdAt": {
+    "$date": "2021-02-27T01:46:38.676Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:46:38.676Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a495cf95c33008276f43"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 160,
+  "password": "$2a$10$.wg7kN5XwLnBZ.FlDkkarueObnUYrEZVKCQMXb3rJPgCU/f5721Bu",
+  "createdAt": {
+    "$date": "2021-02-27T01:47:01.084Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:47:01.084Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a4a8cf95c33008276f44"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 161,
+  "password": "$2a$10$eq5V1NgpZAxHm7A8ZxIPHO1lDyWfGeO0YV.TGAlsDssG/tyd6a.YO",
+  "createdAt": {
+    "$date": "2021-02-27T01:47:20.441Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:47:20.441Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a4becf95c33008276f45"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 162,
+  "password": "$2a$10$MHKxtFEVxGin3YQi6BMieulmXUX7kOeTK524sMEvMhG9aDeEabyQm",
+  "createdAt": {
+    "$date": "2021-02-27T01:47:42.710Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:47:42.710Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a4d2cf95c33008276f46"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 163,
+  "password": "$2a$10$tUQKH9r/bMf87Ro8f8zeu.ZN0MMAPggbC.IusHcWLHqTDGFiYGIMe",
+  "createdAt": {
+    "$date": "2021-02-27T01:48:02.273Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:48:02.273Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a4e5cf95c33008276f47"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 164,
+  "password": "$2a$10$bCm.Tf.fCKnq1QoEeJwgwOSygrRrlzjJMg/0Q8npsbOXhCcaGBcUO",
+  "createdAt": {
+    "$date": "2021-02-27T01:48:21.820Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:48:21.820Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a4facf95c33008276f48"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 165,
+  "password": "$2a$10$gJSCrVjVWyI6ZPy3c71DLu7Iv2MsN5devo3nyLtxFMRe6tyHyKZ8y",
+  "createdAt": {
+    "$date": "2021-02-27T01:48:42.706Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:48:42.706Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a50fcf95c33008276f49"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 166,
+  "password": "$2a$10$dMeIquzeeriovB5m1j5cJeBxnWp6XkxowEtg6NvXOO3vUrE6hDEee",
+  "createdAt": {
+    "$date": "2021-02-27T01:49:03.253Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:49:03.253Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a52ccf95c33008276f4a"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 167,
+  "password": "$2a$10$NAR0P2a/4ItG5k9zBOfYXu.6g07eSAi0Gz7zXTgMoi/P7DTAmUWCi",
+  "createdAt": {
+    "$date": "2021-02-27T01:49:32.509Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:49:32.509Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a542cf95c33008276f4b"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 168,
+  "password": "$2a$10$f393/WsZoC.IRz/KFEj2R.xYNTo9eChsyEXBrNYs4DbmZ9SzBG6rC",
+  "createdAt": {
+    "$date": "2021-02-27T01:49:54.918Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:49:54.918Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a556cf95c33008276f4c"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 169,
+  "password": "$2a$10$pCuy7GFQqWK5tTLQLd7EUe4KBFs1P6ZMWHYjG19CmZd8y/5NMKtt2",
+  "createdAt": {
+    "$date": "2021-02-27T01:50:14.488Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:50:14.488Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a56acf95c33008276f4d"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 170,
+  "password": "$2a$10$4FXcDHtgYVDZVbWkpfRQbu5RFyYm8m4efN4Z6CUuepdhweCzs/gD2",
+  "createdAt": {
+    "$date": "2021-02-27T01:50:34.714Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:50:34.714Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6039a57ecf95c33008276f4e"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 171,
+  "password": "$2a$10$FTDwW8AVchzGg/sPYvEFp.ISTlqzAMbh4CCmpTXc2h65x4AGGGH3m",
+  "createdAt": {
+    "$date": "2021-02-27T01:50:54.460Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-27T01:50:54.460Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "603a74176244f93d7844bb28"
+  },
+  "attempted": 20,
+  "Score": 20,
+  "loggedIn": true,
+  "teamID": 1,
+  "password": "$2a$10$66Fiq8fRZcgn3d8EXzrbk.Ks2H9qDY99nPSF6zPuUEpl0NJ1xrlOi",
+  "createdAt": {
+    "$date": "2021-02-27T16:32:23.144Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-04T09:38:13.040Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6040748541fe2b14a8f0d722"
+  },
+  "attempted": 8,
+  "Score": 8,
+  "loggedIn": true,
+  "teamID": 2,
+  "password": "$2a$10$i6OErjTEGw/O0qkdx7ess.vn/InL3TfmXUCllkJmxFitJiSyrmuiy",
+  "createdAt": {
+    "$date": "2021-03-04T05:47:49.192Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-04T20:29:10.210Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6040749341fe2b14a8f0d723"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": true,
+  "teamID": 3,
+  "password": "$2a$10$1xHevv7SVClqRdcK4uHqC.6DgRtEq6XzaC7v8r/8/ZWBAJ4MzT7LC",
+  "createdAt": {
+    "$date": "2021-03-04T05:48:03.173Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-04T20:19:26.305Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6040749941fe2b14a8f0d724"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 4,
+  "password": "$2a$10$JTwQ93wdz/todpsgHzApGeO4BHPsE7661gPny6lXxFUqBZUifWVRS",
+  "createdAt": {
+    "$date": "2021-03-04T05:48:09.692Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-04T05:48:09.692Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604074a141fe2b14a8f0d725"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": true,
+  "teamID": 5,
+  "password": "$2a$10$Ll4sC1xOKZxqa4IsKGrKo.22QPxycrcLN4uldz3XnMThkvPlA4Tz2",
+  "createdAt": {
+    "$date": "2021-03-04T05:48:17.335Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-04T20:26:12.787Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604074a641fe2b14a8f0d726"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 6,
+  "password": "$2a$10$BY9x/icyc0TybccfIy1vsuJABcNsq0ZjdDcFfryEt1Rw2bK4kx.g.",
+  "createdAt": {
+    "$date": "2021-03-04T05:48:22.836Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-04T05:48:22.836Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bdaa985e6b021c1d1f6d"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 172,
+  "password": "$2a$10$wK38sKRa1iRogZ32BhdywOcIqcpwXNUdnliEW.3mhcEd0o0eqKuxe",
+  "createdAt": {
+    "$date": "2021-03-05T05:12:10.772Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:12:10.772Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bdc7985e6b021c1d1f6e"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 173,
+  "password": "$2a$10$UvMJ5bs6hBJPZpIzYgFvw.MDniurU9I2R5pT1zxazk4/7WE8E9RuK",
+  "createdAt": {
+    "$date": "2021-03-05T05:12:39.862Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:12:39.862Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bddc985e6b021c1d1f6f"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 174,
+  "password": "$2a$10$r/ohbfwyfSCMU6CxduzRc.fXUmpHyLL1LEC5hRA/XIS4ng6yXPEHG",
+  "createdAt": {
+    "$date": "2021-03-05T05:13:00.147Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:13:00.147Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bdee985e6b021c1d1f70"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 175,
+  "password": "$2a$10$YaCeaGg0vPmHtzawUPKbxunosWJzn6OUmoGTGPuNC8lmq2bXzxJrC",
+  "createdAt": {
+    "$date": "2021-03-05T05:13:18.119Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:13:18.119Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be02985e6b021c1d1f71"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 176,
+  "password": "$2a$10$8Yoho0G2qj8JGyTqXieqy.FhzRZVF//ThrtjnsVTmH3eu4oeAm4u6",
+  "createdAt": {
+    "$date": "2021-03-05T05:13:38.952Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:13:38.952Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be15985e6b021c1d1f72"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 177,
+  "password": "$2a$10$HqPkfOJO7fY.CTpsT6/kw.z8r/81xIwi8F40pIGyxipwZnD9.Hv7y",
+  "createdAt": {
+    "$date": "2021-03-05T05:13:57.447Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:13:57.447Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be26985e6b021c1d1f73"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 178,
+  "password": "$2a$10$nPd2ErO0jLsR69TwuqrxYOylXm0WhL08MR8/ddTI0bTjJUdDLFlt6",
+  "createdAt": {
+    "$date": "2021-03-05T05:14:14.167Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:14:14.167Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be38985e6b021c1d1f74"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 179,
+  "password": "$2a$10$VBKHq26NM7oAWa7ogY2rgOhEw2MdGgFkPJpAEMoWW10f00oe2pzoO",
+  "createdAt": {
+    "$date": "2021-03-05T05:14:32.201Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:14:32.201Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be4a985e6b021c1d1f75"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 180,
+  "password": "$2a$10$bts5//8ym3rhtoC/XqngO.EADYc5br9if.PV/1XhKYwd1dkUE/s4i",
+  "createdAt": {
+    "$date": "2021-03-05T05:14:50.236Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:14:50.236Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be5c985e6b021c1d1f76"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 181,
+  "password": "$2a$10$.o1P4vrgdc.hCcjQZSFWTub2KiP3ALx./sIzn4vhjAFtfN.M/T/aG",
+  "createdAt": {
+    "$date": "2021-03-05T05:15:08.348Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:15:08.348Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be6f985e6b021c1d1f77"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 182,
+  "password": "$2a$10$ciQKdlhisNdXbzplFG/C4.mv7cRxfhHmWdCIRC55Hgcr4OzptOlUG",
+  "createdAt": {
+    "$date": "2021-03-05T05:15:27.818Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:15:27.818Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be81985e6b021c1d1f78"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 183,
+  "password": "$2a$10$M1aVwrc40pKzY94PxFjlx.oyob2T3Sg0RD5WEnCakHLbDevYQFLJm",
+  "createdAt": {
+    "$date": "2021-03-05T05:15:45.132Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:15:45.132Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041be95985e6b021c1d1f79"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 184,
+  "password": "$2a$10$W8b3CaC0uv/Cui0n1qfeh..sqG2QVRwKZAxSKojac4Q5FsP.TKzdS",
+  "createdAt": {
+    "$date": "2021-03-05T05:16:05.086Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:16:05.086Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bea7985e6b021c1d1f7a"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 185,
+  "password": "$2a$10$4KBzm7q2Ghki0QJt0QSR8Ox5Ls6ef0Xbv5iKJ6.fBdLUumd3hyY26",
+  "createdAt": {
+    "$date": "2021-03-05T05:16:23.178Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:16:23.178Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041beb8985e6b021c1d1f7b"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 186,
+  "password": "$2a$10$/fVt4b4QmtBTYMnsdfA7/.d6/Rm0qloC9bzKkNuiggkV6s5zZ6CFC",
+  "createdAt": {
+    "$date": "2021-03-05T05:16:40.070Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:16:40.070Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bec8985e6b021c1d1f7c"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 187,
+  "password": "$2a$10$0nOAFMmFs4pHVs7gmJMJ1.9bpEowMTV7xmxXTfkmiPpB2Vn9RtGta",
+  "createdAt": {
+    "$date": "2021-03-05T05:16:56.399Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:16:56.399Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bf31985e6b021c1d1f7d"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 188,
+  "password": "$2a$10$OGl2LNI20S00ug9C4tZd/uN8CeyQ89K1CUeh.GswcIwpBqPk1z8GC",
+  "createdAt": {
+    "$date": "2021-03-05T05:18:41.163Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:18:41.163Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bf45985e6b021c1d1f7e"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 189,
+  "password": "$2a$10$j3QEPSIClb153NQNIbLS3eRrETUeoDNBEmKKfDllDxfRK9HjlDGfC",
+  "createdAt": {
+    "$date": "2021-03-05T05:19:01.183Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:19:01.183Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bf58985e6b021c1d1f7f"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 190,
+  "password": "$2a$10$5LTJ4uHt2cAIAfGP6GzpTeEpitJ3W3XZcXldVo6BT4MT4MCqfmMw2",
+  "createdAt": {
+    "$date": "2021-03-05T05:19:20.336Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:19:20.336Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bf69985e6b021c1d1f80"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 191,
+  "password": "$2a$10$4zIfO68YtBkehz/6YoWfRedx362Vax.MKbwEJ7/dboK.lL6FUBSdy",
+  "createdAt": {
+    "$date": "2021-03-05T05:19:37.144Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:19:37.144Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bf79985e6b021c1d1f81"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 192,
+  "password": "$2a$10$dS8u2mVZ8CQDSlkoYeEWUOZPDjXQYEFzjJc1VHzP06DhtiHGA6qGW",
+  "createdAt": {
+    "$date": "2021-03-05T05:19:53.943Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:19:53.943Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bf8e985e6b021c1d1f82"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 193,
+  "password": "$2a$10$aJm4wMgBsZTraQkgSaY0OekW07YPPiqQSBEE4MZRAhvWQXFstyFZy",
+  "createdAt": {
+    "$date": "2021-03-05T05:20:14.285Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:20:14.285Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bf9f985e6b021c1d1f83"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 194,
+  "password": "$2a$10$Zy0XHVSj0Nma3jIuW6Dwh.uSHYdQNj5qOLmjOwiWUWmpYNcPpgLI.",
+  "createdAt": {
+    "$date": "2021-03-05T05:20:31.815Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:20:31.815Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bfaf985e6b021c1d1f84"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 195,
+  "password": "$2a$10$/rWex.4urna8bq242eKjZOPQsCu6mkR9e1XoL52rApRtWNWywYkTq",
+  "createdAt": {
+    "$date": "2021-03-05T05:20:47.798Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:20:47.798Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bfc0985e6b021c1d1f85"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 196,
+  "password": "$2a$10$6t4aQ0PG5Nc9VUEznGfmoexS8nSdzgcMXoSofkuXnLYmRQ0AvLgKW",
+  "createdAt": {
+    "$date": "2021-03-05T05:21:04.726Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:21:04.726Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bfd1985e6b021c1d1f86"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 197,
+  "password": "$2a$10$TleaBhPNqbPaa32eMAf.vun7JWr6goXzBGS0UpS/MVzJtJ.Va2pYm",
+  "createdAt": {
+    "$date": "2021-03-05T05:21:21.515Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:21:21.515Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041bfed985e6b021c1d1f87"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 198,
+  "password": "$2a$10$SFAlaHjkZN1dHRwmffPRd.khwZXE4aP3txCUPB91WzuP9biruETYK",
+  "createdAt": {
+    "$date": "2021-03-05T05:21:49.387Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:21:49.387Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c008985e6b021c1d1f88"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 199,
+  "password": "$2a$10$yWEKvarZexeGpGq61kvpqOUqIJ9xTzjv3KjN0I119ahKXttXRK1ES",
+  "createdAt": {
+    "$date": "2021-03-05T05:22:16.145Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:22:16.145Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c021985e6b021c1d1f89"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 200,
+  "password": "$2a$10$Ww4S9T3DBy5nidxJsBRcSOwIHqZN5ccyZTafztEb4sqcm/XJzUEOq",
+  "createdAt": {
+    "$date": "2021-03-05T05:22:41.593Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:22:41.593Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c03a985e6b021c1d1f8a"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": true,
+  "teamID": 201,
+  "password": "$2a$10$EItb7c3Jl8c3g3E3owGXc.4CFnzqZreO2O7cceQ0IMcR/KGUGaFcW",
+  "createdAt": {
+    "$date": "2021-03-05T05:23:06.098Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T06:11:31.671Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c051985e6b021c1d1f8b"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 202,
+  "password": "$2a$10$i.gCFYI2VSFZ/koxIjADAOuVl3ckt/bXKXLyKGjvvL7RSJUZFaZaq",
+  "createdAt": {
+    "$date": "2021-03-05T05:23:29.867Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:23:29.867Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c067985e6b021c1d1f8c"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 203,
+  "password": "$2a$10$8FHm9r5HQ3SCY7gpxfja0OwLDT8NwxkZzX9W9IxsvEpvJb9mfxwUS",
+  "createdAt": {
+    "$date": "2021-03-05T05:23:51.968Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:23:51.968Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c07d985e6b021c1d1f8d"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 204,
+  "password": "$2a$10$BjtqNvCVONdgprD4A30viuio3leDOAEQDz5jQuaQS.OdWNuYM1W2i",
+  "createdAt": {
+    "$date": "2021-03-05T05:24:13.958Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:24:13.958Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c090985e6b021c1d1f8e"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 205,
+  "password": "$2a$10$BWVA7PDYTVgzt/hwSXtfjOcvmbV/mo/NYjIbatF8rKKk.MtwFmlqq",
+  "createdAt": {
+    "$date": "2021-03-05T05:24:32.992Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:24:32.992Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c0a5985e6b021c1d1f8f"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 206,
+  "password": "$2a$10$ZM7C.bDo7D9gAE.IpTEW2OYY4SN86yfZ0ER7PpG3gP7v.kWrD9Eo.",
+  "createdAt": {
+    "$date": "2021-03-05T05:24:53.228Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:24:53.228Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c0b8985e6b021c1d1f90"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 207,
+  "password": "$2a$10$48tBTlX62.e5fOJvfWm1MOtmqSv90r3/ORJDUcULraXS4UhU7Ha7e",
+  "createdAt": {
+    "$date": "2021-03-05T05:25:12.695Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:25:12.695Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c177985e6b021c1d1f91"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 208,
+  "password": "$2a$10$0pqsK38QFH7jdq2kxiHbxO29k0JxvvAREZ.81c2vYZk2bodZRq4vC",
+  "createdAt": {
+    "$date": "2021-03-05T05:28:23.222Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:28:23.222Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c19d985e6b021c1d1f92"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 209,
+  "password": "$2a$10$9Y8p7AvJxSbMbuoNvIZ9L.FbEbNFAOZKCBlTdozI0kvj37m111X6e",
+  "createdAt": {
+    "$date": "2021-03-05T05:29:01.684Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:29:01.684Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6041c1b2985e6b021c1d1f93"
+  },
+  "attempted": 0,
+  "Score": 0,
+  "loggedIn": false,
+  "teamID": 210,
+  "password": "$2a$10$gdSjrpUV4HJ5dru0Ysviv.KHcWMK1yiQL6ANlRsx5i/3yBEdLmw5O",
+  "createdAt": {
+    "$date": "2021-03-05T05:29:22.546Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-05T05:29:22.546Z"
+  },
+  "__v": 0
+}]

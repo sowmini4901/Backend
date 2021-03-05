@@ -18,6 +18,10 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/Questions'));
 app.use(express.static(__dirname+ '/landingpage'));
+app.use(express.static(__dirname+ '/Questions/images'));
+app.use(express.static(__dirname+ '/Questions/css'));
+
+
 
 app.use(cors());
 //cookies
@@ -38,7 +42,7 @@ db();
 //My Routes
 app.use("/api", authRoutes);
 app.use("/api/leader",leader);
-//app.use("/sign",sign);
+
 //PORT
 const PORT = process.env.PORT || 8080;
 
@@ -56,13 +60,7 @@ const createToken = (id,answered) => {
     });
   };
 
-  /*
-  const intervalObj = setInterval((req) => {
-    
-    console.log('interviewing the interval');
-  }, 500);
-  */
-  
+
   
   app.get('/',function(req, res){
     if(req.cookies['timeup']==undefined){
@@ -83,69 +81,8 @@ const createToken = (id,answered) => {
       var attemptChecking= Number(req.cookies['attempt'])+1;
       console.log(attemptChecking);
       return res.redirect('/question/'+attemptChecking);
-      /*
-      if(req.cookies['attempt']==0){
-        return res.redirect('/question/1');
-      } 
-    else if(req.cookies['attempt']==1){
-      return res.redirect('/question/2');
-    } 
-    else if(req.cookies['attempt']==2){
-      return res.redirect('/question/3');
-    } 
-    else if(req.cookies['attempt']==3){
-      return res.redirect('/question/4');
-    } 
-    else if(req.cookies['attempt']==4){
-      return res.redirect('/question/5');
-    } 
-    else if(req.cookies['attempt']==5 ){
-      return res.redirect('/question/6');
-    } 
-    else if(req.cookies['attempt']==6 ){
-      return res.redirect('/question/7');
-    } 
-    else if(req.cookies['attempt']==7){
-      return res.redirect('/question/8');
-    } 
-    else if(req.cookies['attempt']==8){
-      return res.redirect('/question/9');
-    }
-    else if(req.cookies['attempt']==9){
-      return res.redirect('/question/10');
-    }
-    else if(req.cookies['attempt']==10){
-      return res.redirect('/question/11');
-    }
-    else if(req.cookies['attempt']==11){
-      return res.redirect('/question/12');
-    }
-    else if(req.cookies['attempt']==12 ){
-      return res.redirect('/question/13');
-    }
-    else if(req.cookies['attempt']==13){
-      return res.redirect('/question/14');
-    }
-
-    else if(req.cookies['attempt']==14){
-      return res.redirect('/question/15');
-    }
-    else if(req.cookies['attempt']==15){
-      return res.redirect('/question/16');
-    }
-    else if(req.cookies['attempt']==16){
-      return res.redirect('/question/17');
-    }
-    else if(req.cookies['attempt']==17){
-      return res.redirect('/question/18');
-    }
-    else if(req.cookies['attempt']==18){
-      return res.redirect('/question/19');
-    }
-    else if(req.cookies['attempt']==19){
-      return res.redirect('/question/20');
-    }
-    */
+     
+    
     
   } 
 }
@@ -167,69 +104,7 @@ const createToken = (id,answered) => {
       }
       var attemptChecking= req.cookies['attempt']+1;
       return res.redirect('/question/'+attemptChecking);
-      /*
-      if(req.cookies['attempt']==0){
-        return res.redirect('/question/1');
-      } 
-    else if(req.cookies['attempt']==1){
-        return res.redirect('/question/2');
-      } 
-      else if(req.cookies['attempt']==2){
-        return res.redirect('/question/3');
-      } 
-      else if(req.cookies['attempt']==3){
-        return res.redirect('/question/4');
-      } 
-      else if(req.cookies['attempt']==4){
-        return res.redirect('/question/5');
-      } 
-      else if(req.cookies['attempt']==5 ){
-        return res.redirect('/question/6');
-      } 
-      else if(req.cookies['attempt']==6 ){
-        return res.redirect('/question/7');
-      } 
-      else if(req.cookies['attempt']==7){
-        return res.redirect('/question/8');
-      } 
-      else if(req.cookies['attempt']==8){
-        return res.redirect('/question/9');
-      }
-      else if(req.cookies['attempt']==9){
-        return res.redirect('/question/10');
-      }
-      else if(req.cookies['attempt']==10){
-        return res.redirect('/question/11');
-      }
-      else if(req.cookies['attempt']==11){
-        return res.redirect('/question/12');
-      }
-      else if(req.cookies['attempt']==12 ){
-        return res.redirect('/question/13');
-      }
-      else if(req.cookies['attempt']==13){
-        return res.redirect('/question/14');
-      }
-  
-      else if(req.cookies['attempt']==14){
-        return res.redirect('/question/15');
-      }
-      else if(req.cookies['attempt']==15){
-        return res.redirect('/question/16');
-      }
-      else if(req.cookies['attempt']==16){
-        return res.redirect('/question/17');
-      }
-      else if(req.cookies['attempt']==17){
-        return res.redirect('/question/18');
-      }
-      else if(req.cookies['attempt']==18){
-        return res.redirect('/question/19');
-      }
-      else if(req.cookies['attempt']==19){
-        return res.redirect('/question/20');
-      }
-      */
+      
     }
 else{
  return res.sendFile(path.join(__dirname , '/landingpage/signin.html'));

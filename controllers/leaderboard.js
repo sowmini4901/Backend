@@ -31,7 +31,7 @@ exports.leaderboard = async (req, res)=>{
           res.json(result);
         }
       })
-      .limit().sort({ Score: -1 });
+      .limit().sort({ Score: -1, updatedAt:1 });
 
 };
 
