@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Level 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/bootstrap.css" /> 
+    <link type="text/css" rel="stylesheet" href="../css/template.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&family=Jura:wght@700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="../css/challenge1.css">
+  </head>
+<style type="text/css">
+  body{
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+</style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom" id="navbar1">
+      <a class="navbar-brand">
+        <!-- <img
+          src="../images/worldwide.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        /> -->
+        Web Hunt 3.0
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- <li class="nav-item active">
+            <a class="nav-link">Game <span class="sr-only">(current)</span></a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" onclick="redirectLB()"  style="color: white">LeaderBoard</a>
+          </li>
+          <div
+            class="nav-link nav navbar-nav navbar-center"
+            id="navbar-timer"
+            style="font-size: 18px;
+            color:white;
+          margin: auto;"
+          >
+            <p id="timer" style="font-size: 25px;margin-top: -7px;"></p>
+          </div>
+        </ul>
+      </div>
+      <form action="http://localhost:8080/api/signout" method="POST">
+      <button 
+        class="btn btn-dark my-2 my-sm-0"
+        style="border-radius: 10px"
+        id="log-out"
+       type="submit"
+      >
+        Log out
+      </button>   
+      </form>
+    </nav>
+    <br />
+<section class="min-vh-100">
+        
+
+        <div class="container col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center" style="height: 480px;"> 
+      <p class="level">Level - 1</p>
+      <img src="../images/5GhpfsjW.jpg" class="image" style="margin-top: -15px;" /><br><br>
+      
+    </div>
+
+    <div class="container">
+        <div class="row text-white">
+          <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+          <div class="px-2">
+           <form action="http://localhost:8080/api/leader/validate/1" method="POST" class="justify-content-center">
+          <div class="input-group mb-3" id="inputgroup">
+        <input
+          type="text"
+          class="form-control justify-content-center"
+          placeholder="Enter answer here"
+          aria-describedby="button-addon2"
+          id="answerBox"
+          name="answer"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-light"
+            type="submit"
+            id="button-addon2"
+            
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+        </form>
+        </div>
+        </div>
+         </div>
+        </div>
+    
+</section>
+
+
+    
+  </body>
+  <script src="../js/timer.js"></script>
+  <script type="text/javascript" src="../js/validation.js"></script>
+</html>

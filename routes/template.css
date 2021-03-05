@@ -1,0 +1,203 @@
+.image{
+    height: 90%;
+    width: 100%;
+    background: #424242;
+    margin: auto;
+    border-radius: 25px;
+    border: 5px;
+    border-style: solid;
+    border-color: #00ff99;
+}
+
+.bg-custom{
+    background-color: #33ffad;
+    box-shadow: 5px 7px 5px #66ffc2;
+    border-radius: 25px;
+}
+
+body{
+    background: #222 url('../images/bg.png') center center no-repeat;
+    
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.level{
+    color: #efefef;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    padding-bottom: 10px;
+}
+
+#answertext {
+    color: #efefef;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Muli', sans-serif;
+    padding-top: 20px;
+}
+
+#inputgroup{
+    width: 410px;
+}
+
+/*https://unsplash.it/1920/1080/?random*/
+/*#cover {
+    background: #222 url('https://unsplash.it/1920/1080/?random') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}*/
+
+.navbar-nav.navbar-center { 
+            position: absolute; 
+            left: 50%; 
+            transform: translatex(-50%); 
+        } 
+/* only used for background overlay not needed for centering */
+/*form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+ 
+}
+
+.alert{    
+    margin: auto !important;
+    width: 50% !important;
+    padding: 10px !important;
+      background-color: white;
+      color:black;
+    }
+
+.button1{
+  margin-top:20%;
+  padding:20px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  font-size: 25px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #888;
+  width: 30%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes example {
+  0%   {background-color: #33ff99;}
+  25%  {background-color: #ffff33;}
+  50%  {background-color: #66ffb3;}
+  100% {background-color: #4dffdb;}
+}
+@-webkit-keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.anim-border {
+    position: relative;
+    z-index: 0;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 2rem;
+}
+.anim-border::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #b7a7ff;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#2e00ff, #917af9);
+    -webkit-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
+}
+.anim-border::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 6px;
+  top: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: #0d0d0d;
+  border-radius: 5px;
+} 
+.anim-border img {
+    width: 100%;
+}
+/*.container {
+    max-width: 1060px;
+    margin: auto;
+}*/

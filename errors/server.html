@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<style type="text/css">
+  .modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  font-size: 25px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #888;
+  width: 30%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes example {
+  0%   {background-color: #33ff99;}
+  25%  {background-color: #ffff33;}
+  50%  {background-color: #66ffb3;}
+  100% {background-color: #4dffdb;}
+}
+@-webkit-keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.anim-border {
+    position: relative;
+    z-index: 0;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 2rem;
+}
+.anim-border::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #b7a7ff;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#2e00ff, #917af9);
+    -webkit-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
+}
+.anim-border::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 6px;
+  top: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: #0d0d0d;
+  border-radius: 5px;
+} 
+.anim-border img {
+    width: 100%;
+}
+/*.container {
+    max-width: 1060px;
+    margin: auto;
+}*/
+</style>
+
+    
+<div id="myModal" class="modal">
+  <div class="modal-content anim-border">
+    <span class="close" >&times;</span>
+    <p style="text-align: center;color: white">Internal Server Error</p>
+   
+  </div>
+
+
+
+<body onload="goback()" >
+  
+
+</body>
+<script type="text/javascript">
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+async function goback(){
+  await sleep(3000);
+  history.go(-1);
+}
+ 
+  </script>
+</html>

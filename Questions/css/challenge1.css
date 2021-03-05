@@ -1,0 +1,232 @@
+.regular{
+font-size: 6vw;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #ffffff;
+font-weight: bold;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+
+
+}
+.regular::-moz-selection { /* Code for Firefox */
+  color: rgb(0, 0, 0);
+  background: white;
+}
+
+.regular::selection {
+  color:  rgb(0, 0, 0);
+  background: white;
+}
+.hidden{
+font-size: 3vw;
+
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: bold;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: uppercase;
+
+}
+.hidden::-moz-selection { /* Code for Firefox */
+  color: rgb(196, 68, 68);
+  background: white;
+}
+.hidden::selection {
+  color: rgb(196, 68, 68);
+  background: white;
+}
+
+.glitch {
+   color: white;
+   position: relative;
+}
+.glitch::after {
+   content: attr(data-text);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   left: 2px;
+   
+   text-shadow: -1px 0 #00fff9, 1px 1px #ff00c1;
+   animation: noise-anim 1s infinite linear alternate-reverse;
+   
+}
+.glitch::before {
+   content: attr(data-text);
+   position: absolute;
+   top: 0;
+   left: -2px;
+   width: 100%;
+   height: 100%; 
+   
+   text-shadow: 1px 0 #ff00c1;
+   animation: noise-anim-2 5s infinite linear alternate-reverse;
+   
+   
+   
+   
+}
+ @keyframes noise-anim {
+   0% {
+    left: 0px;
+     clip-path: inset(85% 0 13% 0);
+  }
+   5% {
+    left: 0px;
+     clip-path: inset(33% 0 34% 0);
+  }
+   10% {
+    left: 0px;
+     clip-path: inset(37% 0 44% 0);
+  }
+   15% {
+    left: 0px;
+     clip-path: inset(26% 0 44% 0);
+  }
+   20% {
+     clip-path: inset(53% 0 21% 0);
+  }
+   25% {
+     clip-path: inset(91% 0 10% 0);
+  }
+   30% {
+     clip-path: inset(26% 0 55% 0);
+  }
+   35% {
+     clip-path: inset(64% 0 21% 0);
+  }
+   40% {
+     clip-path: inset(99% 0 1% 0);
+  }
+   45% {
+    left: 0px;
+     clip-path: inset(91% 0 3% 0);
+  }
+   50% {
+    left: 0px;
+     clip-path: inset(27% 0 40% 0);
+  }
+   55% {
+    text-shadow: none;
+     clip-path: inset(29% 0 50% 0);
+  }
+   60% {
+    text-shadow: none;
+     clip-path: inset(40% 0 6% 0);
+  }
+   65% {
+    text-shadow: none;
+     clip-path: inset(22% 0 61% 0);
+  }
+   70% {
+    left: 0px;
+     clip-path: inset(49% 0 13% 0);
+  }
+   75% {
+    left: 0px;
+     clip-path: inset(32% 0 26% 0);
+  }
+   80% {
+     clip-path: inset(38% 0 20% 0);
+  }
+   85% {
+     clip-path: inset(97% 0 2% 0);
+  }
+   90% {
+    text-shadow: none;
+     clip-path: inset(78% 0 6% 0);
+  }
+   95% {
+    text-shadow: none;
+     clip-path: inset(20% 0 13% 0);
+  }
+   100% {
+     clip-path: inset(92% 0 1% 0);
+  }
+}
+
+ @keyframes noise-anim-2 {
+   0% {
+    left: 0px;
+     clip-path: inset(77% 0 6% 0);
+  }
+   5% {
+    left: 0px;
+     clip-path: inset(47% 0 10% 0);
+  }
+   10% {
+     clip-path: inset(29% 0 35% 0);
+  }
+   15% {
+     clip-path: inset(18% 0 73% 0);
+  }
+   20% {
+    left: 0px;
+     clip-path: inset(64% 0 18% 0);
+  }
+   25% {
+    left: 0px;
+     clip-path: inset(100% 0 1% 0);
+  }
+   30% {
+
+     clip-path: inset(96% 0 2% 0);
+  }
+   35% {
+    left: -1px;
+     clip-path: inset(59% 0 8% 0);
+  }
+   40% {
+     clip-path: inset(64% 0 2% 0);
+  }
+   45% {
+     clip-path: inset(12% 0 84% 0);
+  }
+   50% {
+    left: -1px;
+     clip-path: inset(54% 0 17% 0);
+  }
+   55% {
+    left: -1px;
+     clip-path: inset(30% 0 36% 0);
+  }
+   60% {
+     clip-path: inset(81% 0 3% 0);
+  }
+   65% {
+     clip-path: inset(56% 0 17% 0);
+  }
+   70% {
+    left: -1px;
+     clip-path: inset(21% 0 68% 0);
+  }
+   75% {
+    left: -1px;
+     clip-path: inset(35% 0 56% 0);
+  }
+   80% {
+     clip-path: inset(31% 0 33% 0);
+  }
+   85% {
+     clip-path: inset(39% 0 34% 0);
+  }
+   90% {
+     clip-path: inset(68% 0 26% 0);
+  }
+   95% {
+    left: 0px;
+     clip-path: inset(61% 0 11% 0);
+  }
+   100% {
+    left: 0px;
+     clip-path: inset(20% 0 9% 0);
+  }
+}

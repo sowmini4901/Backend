@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+
+<link rel="icon" type="image/png" href="./resources/null-logo-recent.png"/>
+  <title>Webhunt 3.0</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand py-0" href="https://nullchapter.github.io">
+        <img src="./resources/null-logo-circle-outline-white.png" alt="" width="70" height="70">        
+      </a>
+      <a href="https://oscvitap.org" class="navbar-brand py-0">
+        <img src="./resources/OSC LOGO WHITE.png" alt="" width="140" height="70">
+      </a>
+      <!-- <a href="./index.html" class="btn btn-primary">Home</a> -->
+    </div>
+
+  </nav>
+  <header class="hero-signin">
+    <div class="login-container d-flex align-items-center justify-content-center text-md-start"> 
+        <form action="/api/signin" method="POST">
+          <div class="form-group">
+            <label>Team ID</label>
+            <input type="text" class="form-control" name="teamID" placeholder="Enter Team ID">
+            </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password" placeholder="Enter Password">
+          </div>
+          <!-- <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">show password</label>
+          </div> -->
+          <button type="submit" class="btn btn-primary">Sign In</button>
+          <div>
+            <!-- <small>Don't have an account? <a href="#">SignUp</a></small> -->
+          </div>
+        </form>
+      </div>  
+  </header>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
