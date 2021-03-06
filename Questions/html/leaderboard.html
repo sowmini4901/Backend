@@ -14,8 +14,9 @@
 
     <style>
     body{
-        background-color: white;
-    }
+    background: #222 url('../images/bg.png') center center no-repeat;
+    
+}
       .co{
        background-color:green;
       }
@@ -25,7 +26,20 @@
     </style>
 </head>
 <body>
-     
+  <br><br>
+  <div class="container-fluid">
+    <div class="row col-md-8 mx-auto">
+
+<div class="card col-md-6 mx-auto border-danger ">
+ 
+  <div class="card-body text-danger">
+    <h5 class="card-title text-center">DISCLAIMER!</h5>
+    <p class="card-text">The scores shown below is calculated based on time taken and number of levels cleared respectively!</p>
+  </div>
+</div>
+
+</div>
+  </div>
 <br>
       <div class="container-fluid" >
         <div class="row col-md-12 mx-auto">
@@ -40,10 +54,9 @@
                     <table class="table table-bordered" id='table'>
                         <thead class="thead-dark">
                           <tr>
-                           
-                            
-                            <th scope="col">Score</th>
+
                             <th scope="col">Team ID</th> 
+                            <th scope="col">Score</th>
                              
                           </tr>
                         </thead>

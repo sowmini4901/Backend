@@ -1,39 +1,24 @@
-
 var countDownDate = new Date("Mar 7, 2021 12:00:00").getTime();
 
 
 var x = setInterval(function() {
 
-var currentTime = new Date();
-
-var currentOffset = currentTime.getTimezoneOffset();
-
-var ISTOffset = 330;   // IST offset UTC +5:30 
-
-var ISTTime = new Date(currentTime.getTime() + (ISTOffset + currentOffset)*60000);
-
-// ISTTime now represents the time in IST coordinates
-
-var hoursIST = ISTTime.getHours()
-var minutesIST = ISTTime.getMinutes()
-var secIST = ISTTime.getSeconds()
-
-
-  // var now = new Date().getTime();
-  // var distance = countDownDate - ISTTime;
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
     
-  // var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  // var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  document.getElementById("timer").innerHTML = hoursIST  + "h "
-  + minutesIST + "m " + secIST + "s ";
+  document.getElementById("timer").innerHTML = hours + "h "
+  + minutes + "m " + seconds + "s ";
     
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timer").innerHTML = "TIMEOUT";
-    var url= "../api/timeup"; 
-    window.location = url; 
+    window.location.href="http://localhost:8080/api/timeup";
+  
+  
 
   }
 }, 1000);

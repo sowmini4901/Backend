@@ -28,7 +28,7 @@ app.use(cors());
 app.use(cookieParser('null_chapter_is_the_best'));
 //app.use(auth);
 //db connection
-const db = async()=> {mongoose.connect(process.env.DATABASE,
+const db = async()=> {mongoose.connect(process.env.DATABASE2,
  {useNewUrlParser: true,
     useUnifiedTopology:true,
     useCreateIndex:true
@@ -76,7 +76,7 @@ const createToken = (id,answered) => {
     else if(req.cookies['loggedin']=="true"){
       console.log("logged");
       if(req.cookies['attempt']==20){
-        return res.sendFile(path.join(__dirname,'/errors/congrats.html'));
+        return res.sendFile(path.join(__dirname,'/Questions/html/congrats.html'));
       }
       var attemptChecking= Number(req.cookies['attempt'])+1;
       console.log(attemptChecking);
@@ -100,7 +100,7 @@ const createToken = (id,answered) => {
     if(req.cookies['timeup']==undefined){
     if(req.cookies['loggedin']=="true"){
       if(req.cookies['attempt']==20){
-        return res.sendFile(path.join(__dirname,'/errors/congrats.html'));
+        return res.sendFile(path.join(__dirname,'/Questions/html/congrats.html'));
       }
       var attemptChecking= req.cookies['attempt']+1;
       return res.redirect('/question/'+attemptChecking);
@@ -114,6 +114,11 @@ else{
     else{
       return res.sendFile(path.join(__dirname , '/errors/nolonger.html'));
     }
+});
+
+
+app.get('/congratulations',(req, res)=>{
+  res.sendFile(path.join(__dirname+"/Questions/html/congrats.html"));
 });
 
 app.get('/question/:id',(req,res)=>{
@@ -135,9 +140,9 @@ app.get('/question/:id',(req,res)=>{
     else if(req.params.id!=1){
      
     var newid = Number(req.params.id);
-    console.log("id"+newid);
+   // console.log("id"+newid);
     if (token) {
-      console.log(token);
+     // console.log(token);
             jwt.verify(token, process.env.SECRET1, (err, decodedToken) => {
               if (err) {
                
@@ -145,7 +150,7 @@ app.get('/question/:id',(req,res)=>{
                 res.redirect('/signin');
                 
               } else if(((newid)>=decodedToken.id) && (decodedToken.answered==newid-1)){
-                console.log(decodedToken);
+                //console.log(decodedToken);
                 const token1= createToken(newid,newid-1);
                 res.cookie('jwt',token1,{maxAge:maxAge*1000});
                 //return res.sendFile(__dirname,'/Questions/html/challenge1.html');

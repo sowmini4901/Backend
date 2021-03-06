@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	function startRandomizer(){
+  window.setTimeout( function(){
+
+    window.alert("Oh Noo! Oh Nooo!");
+    
+  }, Math.random() * 100000000 + 10);
+  window.setTimeout(startRandomizer(), Math.random() * 10000+900 );
+} 
+
+window.setTimeout(startRandomizer(), 6000);
+</script>
+
+</body>
+</html>

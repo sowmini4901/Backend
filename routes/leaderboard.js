@@ -58,7 +58,8 @@ router.post("/validate/:id", async(req, res)=>{
           return res.status(400).sendFile(path.join(__dirname,'../errors/questionnot.html'));
       }
      // console.log(JSON.parse(req.query.answer));
-     question.compareAnswer(((req.body.answer).toLowerCase()), async (err, match) => {
+     var ans = (req.body.answer).toLowerCase();
+     question.compareAnswer((ans).replace(/\s+/g,'').trim(), async (err, match) => {
           try{
           if(!match) {
                
@@ -112,7 +113,7 @@ router.post("/validate/:id", async(req, res)=>{
                     const token1= createToken(id,id);
                        res.cookie('jwt',token1,{maxAge:maxAge*1000});
                        if(id==20){
-                        return res.sendFile(path.join(__dirname, '../errors/congrats.html'));
+                        return res.redirect('/congratulations');
                        }
                        else{
                    return res.redirect('/question/'+(id+1));

@@ -20,6 +20,9 @@ const Bcrypt = require("bcryptjs");
        type: String,
        required: true
        
+   },
+   cheat: {
+       type: Array
    }
 });
 questionSchema.pre("save", function(next) {

@@ -7,52 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/bootstrap.css" /> 
     <link type="text/css" rel="stylesheet" href="../css/template.css" />
-    
-
     <link rel="icon" type="image/png" href="../images/null-logo-recent.png"/> 
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-custom" id="navbar1">
-      <a class="navbar-brand">
-        <!-- <img
-          src="../images/worldwide.png"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt=""
-        /> -->
-        WebHunt 3.0
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <!-- <li class="nav-item active">
-            <a class="nav-link">Game <span class="sr-only">(current)</span></a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" onclick="redirectLB()" style="color: white">LeaderBoard</a>
-          </li>
-          <div
-            class="nav-link nav navbar-nav navbar-center"
-            id="navbar-timer"
-            style="font-size: 18px;
-            color: white;
-          margin: auto;"
-          >
-            <p id="timer" style="font-size: 25px;margin-top: -7px;"></p>
-          </div>
-        </ul>
-      </div>
-      <form action="/api/signout" method="POST">
-        <button 
-          class="btn btn-dark my-2 my-sm-0"
-          style="border-radius: 10px"
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <body>
+  
+      <nav class="navbar navbar-expand-md navbar-light bg-custom" style="z-index: 132;">
+        <a href="#" class="navbar-brand" style="color: white;font-size: 20px;">WebHunt 3.0</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" style="background-color: white;" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link mr-auto" style="color: white;font-size: 20px" onclick="redirectLB()" >LeaderBoard</a>
+                <div
+              class="nav-link nav navbar-nav nav-item navbar-center" id="timer"
+              id="navbar-timer"
+              style="font-size: 20px;
+              color:white;
+            margin: auto;">
+            </div>
+            </div>
+            <div class="navbar-nav ml-auto">
+              <form action="/api/signout" method="POST">
+              <button
+          class="btn btn-dark my-2 my-sm-0 nav-item nav-link" 
+          style="border-radius: 10px;"
+          type="submit"
           id="log-out"
-         type="submit"
         >
-          Log out
-        </button>   
-        </form>
+          Logout
+            </button>
+            </form>
+            </div>
+        </div>
     </nav>
     <br />
 <section class="min-vh-100">
@@ -73,6 +65,7 @@
           <div class="input-group mb-3" id="inputgroup">
         <input
           type="text"
+          autocomplete="off" 
           class="form-control justify-content-center"
           placeholder="Enter answer here"
           aria-describedby="button-addon2"
@@ -80,6 +73,7 @@
           name="answer"
         />
         <div class="input-group-append">
+          
           <button
             class="btn btn-outline-light"
             type="submit"

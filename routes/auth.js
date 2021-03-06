@@ -46,11 +46,11 @@ router.post("/signin",async(req, res)=>{
                 if(err)return ("err");
               });
 
-              res.cookie('loggedin',true,{maxAge:maxAge*1000})
+              res.cookie('loggedin',true,{maxAge:maxAge*1000});
             //console.log("attempted"+user.attempted);
              res.cookie('teamID', req.body.teamID,{ maxAge:maxAge*1000});
              var loginChecking=Number(req.cookies['attempt'])+1;
-             console.log(loginChecking);
+            // console.log(loginChecking);
              return res.redirect('/question/'+loginChecking);
              
             

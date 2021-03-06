@@ -21,6 +21,10 @@ const Bcrypt = require("bcryptjs");
   loggedIn: {
     type: Boolean,
     default: false
+  },
+  cheat:{
+    type:Number,
+    default:0
   }
   },
   {timestamps:true}
