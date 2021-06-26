@@ -102,7 +102,7 @@ const createToken = (id,answered) => {
       if(req.cookies['attempt']==20){
         return res.sendFile(path.join(__dirname,'/Questions/html/congrats.html'));
       }
-      var attemptChecking= req.cookies['attempt']+1;
+      var attemptChecking= Number(req.cookies['attempt'])+1;
       return res.redirect('/question/'+attemptChecking);
       
     }

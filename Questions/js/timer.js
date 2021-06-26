@@ -1,15 +1,14 @@
 
 
 
-var countDownDate = new Date("Mar 7, 2021 12:10:00").getTime();
+var countDownDate = new Date("July 10, 2021 19:30:00").getTime();
 
 
 var x = setInterval(function() {
 
   var now = new Date().getTime();
   var distance = countDownDate - now;
-  console.log(distance);
-    
+  
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
